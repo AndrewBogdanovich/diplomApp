@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DiplomApp</string>
+    <string name="add_button">add</string>
+    <string name="read_button">read</string>
+    <string name="clear_button">clear</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">sign up</string>
+    <string name="hint_edit_text_login">Login</string>
+    <string name="hint_edit_text_password">password</string>
+</resources>

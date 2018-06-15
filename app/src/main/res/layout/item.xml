@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorGray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <include layout="@layout/header" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:background="@drawable/we"
+            android:layout_width="250dp"
+            android:layout_height="250dp" />
+
+        <TextView
+            android:padding="3dp"
+            android:textColor="@color/colorBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Мохито"/>
+
+        <TextView
+            android:padding="3dp"
+            android:textColor="@color/colorBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Алкогольный"/>
+
+        <TextView
+            android:padding="3dp"
+            android:textColor="@color/colorBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Мохи́то — коктейль на основе светлого рома и листьев мяты. Происходит с острова Куба."/>
+
+        <TextView
+            android:padding="3dp"
+            android:textColor="@color/colorBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ром, мята, лёд."/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <include layout="@layout/footer" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
